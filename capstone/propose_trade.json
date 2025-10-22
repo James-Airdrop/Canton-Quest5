@@ -1,0 +1,25 @@
+{
+  "commands": {
+    "commands": [
+      {
+        "CreateCommand": {
+          "templateId": "2fa7fec894ed2f78a52c03d35cd2bbd283dd2f415fd6bf40510c50a6445bbd2b:IouTrade:IouTrade",
+          "createArguments": {
+            "buyer": "Alice::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2",
+            "seller": "Bob::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2",
+            "baseIouCid": "0095bbb47ddac9a321ce0bee4b3f456d23228502ae2add6d0560458f514f6dc633ca1112206994f9a90c5f774dd6dcbaf409429486afdb9bae075b301ec1135d5cc4abf108",
+            "baseIssuer": "EUR_Bank::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2",
+            "baseCurrency": "EUR",
+            "baseAmount": "100.0",
+            "quoteIssuer": "USD_Bank::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2",
+            "quoteCurrency": "USD",
+            "quoteAmount": "110.0"
+          }
+        }
+      }
+    ],
+    "userId": "alice-user",
+    "commandId": "trade-proposal-1",
+    "actAs": ["Alice::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2"]
+  }
+}

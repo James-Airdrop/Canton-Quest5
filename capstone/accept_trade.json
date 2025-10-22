@@ -1,0 +1,19 @@
+{
+ "commands": {
+   "commands": [
+     {
+       "ExerciseCommand": {
+         "templateId": "2fa7fec894ed2f78a52c03d35cd2bbd283dd2f415fd6bf40510c50a6445bbd2b:IouTrade:IouTrade",
+         "contractId": "005f97497805fcd68d846828f4fce5ad6407ce3d6cebce717dfbbb089cea042b7dca11122034a6f3c4451bfcee93eb7d7c18fec3bba3d36916f495c0a705166ea9cdf7f07d",
+         "choice": "IouTrade_Accept",
+         "choiceArgument": {
+           "quoteIouCid": "00a8ea35f4a9dff61a11fd71e2d4cbe35124e7d7c2a77a48e1a254dc1d383ed909ca111220460e3dd0f8c3a9921fc7298df3d224e190921221abcab8aeb0c147b6f55d7dd0"
+         }
+       }
+     }
+   ],
+   "userId": "bob-user",
+   "commandId": "trade-acceptance-1",
+   "actAs": ["Bob::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2"]
+ }
+}

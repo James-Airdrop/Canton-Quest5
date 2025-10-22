@@ -1,0 +1,25 @@
+{
+  "commands": {
+    "commands": [
+      {
+        "CreateAndExerciseCommand": {
+          "templateId": "2fa7fec894ed2f78a52c03d35cd2bbd283dd2f415fd6bf40510c50a6445bbd2b:Iou:Iou",
+          "createArguments": {
+            "issuer": "EUR_Bank::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2",
+            "owner": "EUR_Bank::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2",
+            "currency": "EUR",
+            "amount": "100.0",
+            "observers": []
+          },
+          "choice": "Iou_Transfer",
+          "choiceArgument": {
+            "newOwner": "Alice::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2"
+          }
+        }
+      }
+    ],
+    "userId": "eur-bank-user",
+    "commandId": "issue-eur-to-alice-1",
+    "actAs": ["EUR_Bank::12202eba27ade27b1ca74e2fa569e0f927f2c6b0c18583515cab6e77abe48a9e6cc2"]
+  }
+}
